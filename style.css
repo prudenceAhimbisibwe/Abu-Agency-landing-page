@@ -4,20 +4,83 @@
     display: inline-flex;
    
 }
-.talk{
-    padding: 10px;
-    margin: 10px;
-    background-color: #5B8BF1;
-    border-radius: 16px;
+.nav{
+/* text-align: right; */
+width: 48%;
+margin-left: 23%;
+margin-top: 5%;
+padding-bottom: 3%;
+
+
+}
+.btn{
+    margin-top: -7%;
+    margin-left: 88%;
+    border-radius: 16px;  
+}
+.let{
+    background-color: #5894ee;
+    padding: 7px;
+    margin: 12px;
+    border-radius: 12px;
     border-style: none;
+    margin-top: -1%;
+    margin-left: 40%;
 }
-.content{
-    padding: 10px;
-    margin: 10px;
+
+.logo{
+
+margin-top: -8.5%;
+margin-left: -35%;
+font-size: 20px;
+color: rgb(190, 190, 32);
 }
-.icon{
-    padding: 10px;
-    margin: 2%;
+
+.abu{
+color:rgb(73,160,145);
+margin-left: -23%;
+margin-top: -8%;
+
+}
+
+.agency{
+color: rgb(63, 20, 4);
+margin-left: -14%;
+margin-top: -7.6%;
+
+
+}
+.icon1{
+    color: rgb(60, 128, 128);
+    size: 10px;
+    margin-left: 30px;
+}
+.icon2{
+    color: #598BF1;
+    size: 10px;
+    margin-left: 30px;
+}
+.icons{
+    padding:20px;
+    margin: 20px;
+    display: inline-flex;
+    margin-top: -22px;
+    margin-bottom: 4%;
+}
+
+.nav ul li {
+list-style: none;
+display: inline;
+font-size: 20px;
+flex-direction:right;
+padding-right:6%;
+
+}
+
+.nav ul li {
+color:rgb(94, 92, 92);
+text-decoration: none;
+padding: 0px;
 }
 body{
     background-color: #F1EAEA;
@@ -68,22 +131,52 @@ section{
 }
 .number{
     display: inline-flex;
-    margin-top: -65%;
+    margin-top: -90%;
+    /* background-color: #EBF5FD; */
+    width: 90%;
 }
 .num1{
-    padding: 20px;
-    margin: 85px;
+    padding: 40px;
+    margin: 100px;
     background-color: #FFFFFF;
 }
 .num2{
-    padding: 20px;
-    margin: 85px;
+    padding: 45px;
+    margin: 100px;
     background-color: #FFFFFF;
 }
 .num3{
-    padding: 20px;
-    margin: 85px;
+    padding: 40px;
+    margin: 100px;
     background-color: #FFFFFF;
+}
+.images{
+    display: inline-flex;
+}
+.img1{
+    margin-top: -30%;
+    margin-left: 42%;
+}
+.img2{
+    margin-top: -30%;
+    margin-left: 65%;
+}
+.img3{
+    margin-top: -30%;
+    margin-left: 82%;
+}
+
+.img4{
+    margin-top: -27%;
+    margin-left: 57%;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.fire{
+    margin-left: 50%;
+    margin-bottom: -4%;
+    color:  rgb(190, 190, 32);
+    font-size: 20px;
 }
 .container1{
     background-color: #FFFFFF;
@@ -95,7 +188,7 @@ section{
     margin: 60px;
     padding: 0px;
     display: inline-flex;
-    margin-left: 10%;
+    margin-left: 13%;
 }
 .service h5{
     padding: 10px;
@@ -128,9 +221,10 @@ section{
 .identity{
     display: inline-flex;
     padding: 20px;
-    margin: 30px;
+    margin:30px;
     background-color:#FFFFFF;
     width: 92%;
+
 }
 .identity1{
     margin: 80px;
@@ -138,23 +232,82 @@ section{
     background-image: url(/cloud2-removebg-preview.png);
     background-repeat: no-repeat;
 }
+.work{
+    margin-left: 40%;
+    margin-bottom: -15%;
+    color:  rgb(190, 190, 32);
+    font-size: 20px;
+}
 .identity2{
     margin: 60px;
     padding: 40px;
 }
 .identity2 p{
-    /* padding: 10px;
-    margin: 10px; */
     border-style: none;
-
-
+    background-color: rgb(234, 231, 227);
+  
 }
 .identity2 h6{
     font-size: 15px;
 }
+
+.one h6{
+    font-size: 17px;
+    background-color: #FEF3D2;
+    border-radius: 20px;
+    height: 35px;
+    width: 300px;
+    text-align: center;
+    
+}
+.one p{
+    background-color: #469F90;
+    font-size: 22px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: -21%;
+    margin-left: 4%;
+}
+.two h6{
+    font-size: 17px;
+    border-radius: 20px;
+    height: 35px;
+    width: 350px;
+    text-align: center; 
+}
+.two p{
+    background-color: #CBD8EB;
+    font-size: 22px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: -21%;
+    margin-left: 4%;  
+}
+.three h6{
+    font-size: 17px;
+    border-radius: 20px;
+    height: 35px;
+    width: 350px;
+    text-align: center;  
+}
+.three p{
+    background-color:#FEF3D2;
+    font-size: 22px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: -21%;
+    margin-left: 4%; 
+}
 .identity2 h3{
     font-size: 20px;
 }
+
 
 .bttn{
     padding: 5px;
@@ -187,16 +340,22 @@ section{
 .safe h2{
     font-size: 30px;
 }
-.information{
+.infomation{
     display: inline-flex;
     background-color: #FFFFFF;
+    margin: 15px;
+    width: 92%;
     padding: 20px;
-    margin: 30px;
+    height: 70%;
 }
-.information1{
-    padding: 30px;
-    height: 50px; 
-    margin: 20px;
+.info h1{
+   font-size: 10px;
+   margin-top: -3%;
+   margin-left: 83%;
+  
+}
+.info p{
+    margin-top: 10%;
 }
 input[type=text]{
     margin: 15px 0;
@@ -209,17 +368,30 @@ input[type=text]{
 
 }
 .image{
-
-    margin-left: 60%;
     background-image: url(/color2-removebg-preview.png);
     background-repeat: no-repeat;
-    margin-top: -20%;
 }
-.information1 h6{
+.information1 h1{
+    font-size: 10px;
+}
+.information1 p{
     font-size: 15px;
 }
-.information1 h3{
-    font-size: 20px;
+.details input[type=text]{
+    width: 100%;
+    margin: 15px 0;
+    padding: 12px ;
+    height: 45px;
+    display: inline block;
+
 }
+.details{
+    margin-top: 10%;
+}
+/* .details input[type=button]{
+    padding:12px;
+    margin: 10% 0 0 160px;
+    text-align: center;
+} */
 
 
